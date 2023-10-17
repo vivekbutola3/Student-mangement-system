@@ -1,0 +1,84 @@
+* {
+    font-family: Helvetica;
+    text-decoration: none;
+}
+
+body {
+    background-color: #34568B;
+    color: aliceblue;
+}
+
+.btn {
+    background-color: #DD4124;
+    padding: 6px;
+    font-size: 20px;
+    border: 1px solid transparent;
+    color: whitesmoke;
+    font-weight: 500;
+    transition: 1s;
+}
+
+.btn:hover {
+    opacity: 0.5;
+}
+
+h2 {
+    text-align: center;
+}
+
+.btn1 {
+    position: absolute;
+    left: 45%;
+    top: 30%;
+    border-radius: 50px;
+    background-color: white;
+    width: 20%;
+    text-align: center;
+    padding: 10px;
+    transition: 2s;
+}
+
+.btn1 img:hover {
+    left: 100px;
+}
+
+.btn2 {
+    position: absolute;
+    left: 45%;
+    top: 50%;
+    border-radius: 50px;
+    background-color: white;
+    width: 20%;
+    padding: 10px;
+}
+
+.btn2 img:hover {
+    transition: 2s;
+    animation: update .2s infinite ease-in-out;
+    transform: wibkit-translate(50em, 50px);
+}
+
+@keyframes update {
+    0% {
+        transform: rotate(-300deg);
+    }
+    30% {
+        transform: rotate(-600deg);
+    }
+    50% {
+        transform: rotate(-900deg);
+    }
+    100% {
+        transform: rotate(-1000deg);
+    }
+}
+
+.btn3 {
+    border-radius: 50px;
+    position: absolute;
+    top: 70%;
+    left: 45%;
+    background-color: white;
+    width: 20%;
+    padding: 10px;
+}
